@@ -59,7 +59,7 @@ public class Viewer extends Profile<Viewer.ViewerBackEndRunnable,ViewerBackEnd> 
 	private JsonObject rews = null;
 	
 	private static final String[] rew_sources = "chests bought event".split(" ");
-	private static final String[] rew_chests_chests = "chestboostedgold chestbosssuper chestboostedskin chestboss chestboostedtoken chestgold chestsilver chestbronze chestsalvage".split(" ");
+	private static final String[] rew_chests_chests = "chestboostedgold chestbosssuper chestboostedskin chestboss chestboostedtoken chestboostedscroll chestgold chestsilver chestbronze chestsalvage".split(" ");
 	private static final String[] rew_bought_chests = "dungeonchests eventchests".split(" ");
 	private static final String[] rew_types = "gold potions token eventcurrency keys meat bones skin scrollnecromancer scrollmage scrollwarbeast scrolltemplar scrollorcslayer scrollballoonbuster scrollartillery scrollflyingarcher scrollberserker scrollcenturion scrollmusketeer scrollmonk scrollbuster scrollbomber scrollbarbarian scrollpaladin scrollhealer scrollvampire scrollsaint scrollflagbearer scrollrogue scrollwarrior scrolltank scrollarcher".split(" ");
 	
